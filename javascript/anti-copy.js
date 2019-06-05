@@ -6,7 +6,7 @@ oncontextmenu='return false';
 document.onmousedown=click 
 document.oncontextmenu = new Function("return false;") 
 
-var codedLines =$('.line-code__top, .line-code__bott');
+var codedLines = $('.line-code__top, .line-code__bott');
 codedLines.each(function() {
   var el = $(this);
   var count = 100;
