@@ -49,8 +49,8 @@ video {
     left: 50%;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
-    height: auto;
+    width: 1280;
+    height: 1024;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
     background-size: cover;
